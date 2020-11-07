@@ -9,9 +9,10 @@ html {
 }
 
 body {
-
+  font-family: 'Poppins', sans-serif;
   font-size: 14px;
   line-height: 24px;
+  color: #000;
   // пример
   // font-family: "Fira Sans", sans-serif;
   // font-weight: 400;
@@ -19,6 +20,12 @@ body {
   // background-color: #171919;
   // color: #fff;
   // text-transform: uppercase;
+
+  // font-family: 'Lato', sans-serif;
+  // font-family: 'Montserrat', sans-serif;
+  // font-family: 'Open Sans', sans-serif;
+
+  // font-family: 'Roboto', sans-serif;
 }
 
 h1,
@@ -28,6 +35,8 @@ h4,
 h5,
 h6 {
   margin: 0;
+  color: inherit;
+  font-weight: normal;
 }
 
 
